@@ -1,0 +1,13 @@
+---
+layout: post
+title: VLC video playback bug on Android KitKat - audio crackles and cuts out
+date: 2014-03-29 17:20:06 +1000
+tags: [VLC, video, bug]
+---
+VLC media player for Android shows (but apparently isn't responsible for) a bug with its audio playback when playing video files. Every so often the audio crackles and then cuts out for a second or so. Very annoying as you might imagine.
+
+[The bug report](https://trac.videolan.org/vlc/ticket/10039) says it's actually an upstream problem with Android v4.4 (a.k.a. KitKat). When the audio sample rate is not 44.1kHz, the audio gets out of sync and the player tries to catch up, resulting in the crackling and cut-out.
+
+If you experience the bug, you can work around it by switching audio decoders in the VLC settings. Go to *Preferences* > *Advanced debugging* > *Audio output* and select *AudioTrack (Java)*. This works because the bug is in the OpenSLES audio decoder.
+
+You may still notice the audio getting out of sync with the image. I'm not sure why this happens, or how to correct it (yet).

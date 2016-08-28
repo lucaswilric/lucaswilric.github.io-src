@@ -1,0 +1,25 @@
+---
+layout: post
+title: How draconian can you get?
+date: 2008-07-23 16:19:15 +1000
+tags: [rants, stupid, terms of use]
+---
+I was looking at the <a href="http://www.timesonline.co.uk/tol/tools_and_services/services/terms_and_conditions/#e-mailpolicy" rel="nofollow">Acceptable Use Policy</a> at The Times Online, where I found the following little gem:
+
+> **2. Acceptable Use Policy**
+> 
+> You agree to abide by all applicable laws, regulations and codes of conduct and ensure that any content uploaded or distributed or stored by you does not infringe the rights of others.
+> 
+> All material on the Websites and any material sent to you by e-mail or any other form from the Websites (the "content") or in any way relating to the Websites belongs to our licensors or us. You may retrieve and display content from the Websites **on the Electronic Device on which you first accessed it or downloaded it**, print a single copy of individual pages on paper and store such pages for caching purposes only, all for your personal and non-commercial use alone. *(emphasis mine)*
+
+This struck me as monumentally dumb. What that basically means is that The Times would like to make it illegal for me to start reading <a href="http://technology.timesonline.co.uk/tol/news/tech_and_web/the_web/article4362950.ece" rel="nofollow">this article</a> at work, then bookmark it and finish reading it at home. I either have to finish reading it at work, or (because they're a nice lot, really) I can print one (1) copy.
+
+Honestly, how needlessly draconian can you get? What is the point of preventing that kind of activity, even if it was technically possible (which I seriously doubt it is)? Don't our friends at The Times want us to read what they write? If so, then why not make it easy?
+
+If I sound like I think the folks at The Times are all idiots, I apologise. I don't think the people are stupid, I think they've made a bad decision (and there is a difference). I simply don't see any good reason to include anything like that in a Terms of Use document. I don't think it's in The Times' interests for it to be there.
+
+For example, I don't normally put a `nofollow` on my links. For these guys, I have. Because I don't think they deserve linkage, but I think you (dear reader) deserve to be able to see what I'm talking about. Now I obviously don't have a huge readership (or a great PageRank), but if Scoble or Arrington did something like this, The Times would've just lost a fair amount of Google Juice. Especially if they mentioned that that's what they were doing.
+
+I don't know why this is a big enough issue for me to be worth writing about, but it is. When I see blatantly idiotic behaviour like this, I have to say something, because something in my head just screams "This Is Wrong!" Usually I react by having a quiet word to a mate. In this case, I'm not being so subtle. 
+
+As a quick side note, I don't normally read the Terms of Service on websites. I think they're excessive and needlessly legal-minded. In this particular case I wanted to see what guarantees they made about the privacy of my email address. As it happens, I should've looked at the Privacy Policy. But I was also proved right about the "needlessly legal-minded" bit, at least for one case.

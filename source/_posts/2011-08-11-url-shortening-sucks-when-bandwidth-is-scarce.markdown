@@ -1,0 +1,12 @@
+--- 
+layout: post
+date: 2011-08-11 07:45:28 +1000
+title: URL Shortening Sucks When Bandwidth Is Scarce
+---
+Here's why: when you click on a link from bit.ly (or ow.ly, or ur1.ca, or arseh.at) your browser has to go and make a request to the server that runs the URL shortener before it can do anything else - before it can even think about loading what you actually want to see. So every short link you click is slower than the unshortened link would be.
+
+And that's just for starters. URL shorteners also mess up most of the fancy things that browsers - especially mobile browsers - do to make pages load faster. I'm talking about techniques like DNS prefetching and HTML prefetching and... well, mostly different kinds of prefetching. But they rely on knowing which URL you're likely to look at next, and if someone has put a mask over the URL you're heading to (say, by using a URL shortening service), those optimisations can't do you any good.
+
+"Sure, that's fine," you might well be thinking, "but why mention it now?" Well, sir or madam or neuter, I'm glad you asked. The reason I've embarked on this particular rant at this particular point in time is that mobile web usage is only going up. That goes double if you include the use of apps that link, like Twitter, Facebook, Google+ and all the rest. The mobile web is becoming so prevalent that it's almost difficult to get a new mobile phone that *doesn't* have a built-in browser. So ubiquitous, in fact, that I am starting to use it rather a lot. And, as a consequence, get mightily annoyed at how bloody slow it is.
+
+We don't need more things that slow the web down. Please keep those links long. Because let's face it: it's not like we're doing anyone but Twitter any favours.

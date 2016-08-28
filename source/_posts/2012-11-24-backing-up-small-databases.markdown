@@ -1,0 +1,18 @@
+---
+layout: post
+title: Backing up small databases
+date: 2012-11-24 23:15:17 +1000
+tags: [database, backup]
+---
+ I have a few apps running on my own machines that maintain databases. And I got a bit worried that while most of my documents and my code are backed up to other locations, the databases that run those apps really weren't backed up at all. So what's a quick way that I can:
+ 
+ 1. Copy the structured data,
+ 2. Make it easy to restore,
+ 3. Distribute it off site,
+ 4. Do it in a way that preserves my privacy, and
+ 5. Not have to remember to do it?
+ 
+ The answer I came up with is to take a SQL dump, which outputs a SQL script which you execute in order to restore the database schema and data. Then compress it, encrypt it and save it to my Dropbox. All these tasks are scriptable, so I put them in a shell script and told Jenkins (the god of cronjobs) to make sure it happens regularly.
+ 
+ The source code is [here](https://gist.github.com/4139403) if that kind of thing interests you.
+ 

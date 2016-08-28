@@ -1,0 +1,14 @@
+---
+layout: post
+title: Arduino-based aquaponic farming
+date: 2012-11-01 23:23:31 +1000
+tags: [food, aquaponics, arduino]
+---
+ Eric Maundu is growing more food than he can eat in the middle of [Oakland, California][1]. There's no arable land there - he's using a technique called aquaponics, and he's using Arduinos to monitor his gardens and tell him what they need.
+ 
+ <iframe width="560" height="315" src="http://www.youtube.com/embed/3IryIOyPfTE" frameborder="0" allowfullscreen></iframe>
+ 
+ via [faircompanies][2]
+ 
+ [1]: https://maps.google.com/maps/place?q=oakland&hl=en&ftid=0x80857d8b28aaed03:0x71b415d535759367
+ [2]: http://faircompanies.com/videos/view/internet-food-arduino-based-urban-aquaponics-in-oakland/
