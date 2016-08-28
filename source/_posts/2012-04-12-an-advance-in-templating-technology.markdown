@@ -2,7 +2,7 @@
 layout: post
 title: An advance in templating technology
 date: 2012-04-12 11:12:11 +1000
-categories: templates framework old-blog-builder
+tags: templates framework old-blog-builder
 ---
  There are a few challenges in developing a templating engine, and I think I've solved one of them for this framework: including templates inside other templates.
  

@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-08-27 18:45:00 +1000
-categories: jekyll update
+tags: jekyll update
 ---
 I haven't done any blogging in quite a while. This is partly because I've been running the tech blog at work, and partly because my blogging framework (that one I wrote for fun, but ended up looking a lot like Jekyll) depended on a machine that I had to decommission, and also started looking a lot like Jekyll, only not as reliable or feature-rich.
 
