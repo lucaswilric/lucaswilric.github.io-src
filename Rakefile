@@ -1,12 +1,12 @@
-# encoding: UTF-8
+# encoding: utf-8
 require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
 # Change your GitHub reponame
-GITHUB_REPONAME    = "nandomoreirame/lora"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPONAME    = "lucaswilric/lucaswilric.github.io"
+GITHUB_REPO_BRANCH = "master"
 
 SOURCE = "source/"
 DEST   = "_site"
