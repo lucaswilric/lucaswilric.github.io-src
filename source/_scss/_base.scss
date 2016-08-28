@@ -195,3 +195,17 @@ pre {
 .txt-center {
   text-align: center;
 }
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
