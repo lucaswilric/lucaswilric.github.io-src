@@ -40,3 +40,6 @@ social:
   #linkedin:
     #slug: linkedin
     #link: http://linkedin.com/in/nandomoreirame
+
+gems:
+  - jemoji
