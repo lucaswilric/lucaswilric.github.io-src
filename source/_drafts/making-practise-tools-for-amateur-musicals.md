@@ -4,33 +4,42 @@ title: Making practise tools for amateur musicals
 date:
 tags: [music, software]
 ---
-Intro - Lilypond, Sublime Text, shortcuts, make hooked into Sublime's build facility, git for version control
+Earlier this year I served as the Musical Director for a local musical theatre production. My duties involved teaching the music to the cast so that they could perform from memory on stage, including harmony singing in up to 4 parts.
 
-OR
+Because the community group I work with (the [Diamond Valley Singers](http://dvsingers.org/)) has a policy of not auditioning the chorus for our shows, we get people of all skill levels joining the cast. Some people have already developed the skills they need to learn the music and sing in parts from memory, while acting and dancing at the same time. Others haven't, and need as much help as the creative team con provide to get them ready for performance. So I spent a fair amount of time preparing materials to help people practise, including more readable scores and practise backings for all the vocal parts.
 
-Intro - MDing a musical with un-auditioned chorus, where some people need a lot of help learning their stuff. I was also re-arranging some pieces, and needed to produce scores for my arrangements. I also wanted to provide practise tracks for people to use at home, consisting of a piano backing and a voice singing their part.
+Here's a little run-down of the tools I used to put these materials together. All the software is free, or comes packaged with Mac OSX. Hardware is another story, but an investment of a few hundred dollars made a huge difference to the amount of effort required to get everything done.
 
 # MuseScore
 
-* MIDI input
-* WYSIWYG editing
-* Plain-text output in standard format (MusicXML). Not by default, but better than Sibelius. Excellent for version control, because it de-dupes and compresses much better.
-* Pretty good help from the community
-* Does the important 80%
-* Score production feeds into practise track production via MIDI output
+[MuseScore](https://musescore.org/) is an open source music editor, which has all the same basic features as Sibelius. More advanced features such as music scanning are not included, but the price is right, particularly for an amateur like me. The vital features for me were:
+
+* Input from a MIDI keyboard. This speeds up input in a huge way, especially as scanning wasn't an option. I used an [M-Audio KeyStation 49](http://www.m-audio.com/products/view/keystation-49), which was exactly the right size for my desk, and connects via USB to make life extra easy.
+* WYSIWYG (What You See Is What You Get) score editing. Believe it or not, not every music editing program has this feature (I'm looking at you, [Lilypond](http://lilypond.org/)).
+* Plain-text output in an open format (MusicXML). This was an important feature for me because I wanted to use the programming tools I know and love, to help me with things like version control (which I'll go into more later). MusicXML is not MuseScore's default format, but it beats the pants off any binary format for my purposes.
+* Pretty good help from the community. After consulting Google, I was able to get solutions to quite a few problems from the MuseScore [user forums](https://musescore.org/en/forum).
+* Finally, PDF and MIDI exports. This allowed me to turn the scores I was working on into backings for the practise recordings. I could also be certain that those backings would match the score exactly. Again, a pretty standard feature for this kind of software, but I mention it because it was especially important for this project.
+
+# Git
+
+I'm a software engineer by profession, and I like to apply programming tools to my other pursuits. Call it a conceit. I used Git to version control my scores, so that I knew that if I completely messed things up, I could always revert to a previously saved version. At the end of the process, I also got a nice little story created by the sequence of commit messages I'd written. Some day, a musical archaeologist will be able to follow my creative process step by step, because of those records.
+
+I should point out that I only used Git's most basic features. I did most of my work on a single branch, and didn't do any merging at all. Change tracking and save points were all I needed in this case. Git has some great features to help with integrating changes amongst a team, but I had no need for them this time, as I was the only one contributing.
+
+Using Git was only practical because I could get MuseScore to output my work in a plain text format, in this case MusicXML. It's very hard to do version control in a space-efficient way for binary files, as it's a lot easier to compress plain-text files. Even if plain-text files are less space efficient individually, they compress much better in large numbers.
+
+# Tascam stereo recorder
+
+Once I had my scores and backings done, I was ready to record voice parts. I dubbed these over the top of the backings to help my singers practise, since as I mentioned, I was working with singers of all skill levels. I used a Tascam portable stereo recorder mounted on a tripod to record the parts, singing the bass and tenor parts myself and calling in a couple of friends to help me with the soprano and alto parts.
 
 # GarageBand
 
-Entry level tool for recording and mixing. All I really need.
-Talked to a friend for some nicer piano sounds.
-Asked other friends to record soprano and alto parts.
-Recorded voices singing each part over the top. Able to isolate voices for learning individual parts, combine for part-singing practise, or remove voices and leave only instruments for rehearsals where a pianist was unavailable.
+Once all the parts were recorded, I used Apple's GarageBand to mix everything together. With GarageBand I was able to prepare instruments-only tracks for more confident singers, tracks with individual parts for the less confident, and also tracks with all the parts included, which turned out to be very helpful during choreography rehearsals.
+
+GarageBand is an entry level tool as far as recording goes, but I didn't need anything more sophisticated for this project. Just decent MIDI sounds, some chopping and swapping of recorded samples, and basic mixing tools.
 
 # Adjusting tempos
 
-Just used Audacity. It's not pretty software, but it has the tools that do the job, and lets you change speed by saying "I want to change it from X to Y bpm", so you don't need to calculate the % change yourself. Sensible, since that's exactly the kind of thing that computers do better than humans.
+As we approached the end of the rehearsal process, I found I needed to adjust some tempos to be more suitable for the venue and the choreography. Rather than going back and re-recording everything at a different tempo, I was able to use Audacity's "Change Tempo" feature (under the Effects menu) to speed up and slow down songs (or parts of songs) as required. You do need to be pretty accurate with your selection if you only want to adjust part of the song, but the UI for this feature is surprisingly functional considering Audacity's otherwise unattractive interface. I say this because it does the sums for you; you tell it what speed it is now and what speed you want it to be, and it figures out the percentage to adjust by. Exactly the kind of thing that computers do more easily than humans.
 
-# Testing the arrangements
-
-I got a trusted group of singers together to help me (a) hear the arrangements with real voices, (b) find the bits that would require the most preparation before rehearsing with the cast, and (c) pick out bugs in the scores. These were musicians I've spent a lot of time singing with and many of them also had conducting experience, so they knew exactly what to look for. They found lots of places where either I or the composer was unclear about something, which gave me the opportunity to clarify it before presenting it to the cast.
-
+So those are the tools in my practise materials toolbox. I hope you've come across something new here, or been reminded of something you already knew.
